@@ -5,14 +5,14 @@
        provider-name="SolaraExecutor">
   <extension point="xbmc.addon.repository" name="AIO Repo">
     <dir>
-      <info compressed="false">https://aio.github.io/zips/addons.xml</info>
-      <checksum>https://aio.github.io/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://aio.github.io/zips/</datadir>
+      <info compressed="false">https://solaraexecutor9483.github.io/zips/addons.xml</info>
+      <checksum>https://solaraexecutor9483.github.io/zips/addons.xml.md5</checksum>
+      <datadir zip="true">https://solaraexecutor9483.github.io/zips/</datadir>
     </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">My Personal Kodi Repository</summary>
-    <description lang="en_GB">Personal repo for Kodi addons</description>
+    <summary lang="en_GB">AIO Personal Kodi Repository</summary>
+    <description lang="en_GB">Personal repository for Kodi addons</description>
     <platform>all</platform>
   </extension>
 </addon>
