@@ -11,8 +11,8 @@
     </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">AIO Personal Kodi Repository</summary>
-    <description lang="en_GB">Personal repository for Kodi addons</description>
+    <summary lang="en_GB">AIO Repo - Elementum + SportHD + A4K</summary>
+    <description lang="en_GB">Personal Kodi Repository with Elementum, SportHD and A4K Subtitles</description>
     <platform>all</platform>
   </extension>
 </addon>
