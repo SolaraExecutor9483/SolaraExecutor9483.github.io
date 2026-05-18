@@ -1,4 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-  <!-- Your repo will appear here once we add addons -->
+    <!-- Elementum -->
+    <addon id="plugin.video.elementum" version="0.1.113" name="Elementum" provider-name="elgatito">
+        <extension point="xbmc.python.script" library="default.py">
+            <requires>
+                <import addon="xbmc.python" version="3.0.0"/>
+            </requires>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Elementum - Torrent streaming</summary>
+            <description lang="en_GB">Torrent client and streaming for Kodi</description>
+        </extension>
+    </addon>
+
+    <!-- A4K Subtitles -->
+    <addon id="service.subtitles.a4ksubtitles" version="3.20.0" name="A4K Subtitles" provider-name="a4k">
+        <extension point="xbmc.subtitle.module" library="service.py"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">A4K Subtitles</summary>
+            <description lang="en_GB">Multi-source subtitles addon</description>
+        </extension>
+    </addon>
+
+    <!-- SportHD will be added later if needed -->
+</addons><?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <!-- Elementum -->
+    <addon id="plugin.video.elementum" version="0.1.113" name="Elementum" provider-name="elgatito">
+        <extension point="xbmc.python.script" library="default.py">
+            <requires>
+                <import addon="xbmc.python" version="3.0.0"/>
+            </requires>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Elementum - Torrent streaming</summary>
+            <description lang="en_GB">Torrent client and streaming for Kodi</description>
+        </extension>
+    </addon>
+
+    <!-- A4K Subtitles -->
+    <addon id="service.subtitles.a4ksubtitles" version="3.20.0" name="A4K Subtitles" provider-name="a4k">
+        <extension point="xbmc.subtitle.module" library="service.py"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">A4K Subtitles</summary>
+            <description lang="en_GB">Multi-source subtitles addon</description>
+        </extension>
+    </addon>
+
+    <!-- SportHD will be added later if needed -->
 </addons>
